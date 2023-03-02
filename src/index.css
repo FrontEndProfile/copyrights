@@ -4,24 +4,122 @@ html {
   font-size: 62.5%;
   /* font-size: 10px; */
 }
+
 :root {
-  --primary-font : 'Inter', sans-serif;
-  --secondary-font : 'Playfair Display', serif;
-  --bigHeading : 68px;
+  --primary-font: 'Inter', sans-serif;
+  --secondary-font: 'Playfair Display', serif;
+  --bigHeading: 68px;
 
 
-  --white : #FFFFFF;
-  --goldYellow : #CCFF00;
-  --gray : #898CA9;
+  --white: #FFFFFF;
+  --goldYellow: #CCFF00;
+  --gray: #898CA9;
 }
 
-body,* {
+body,
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: var(--primary-font);
 }
+
 body {
   font-size: 1.6rem;
+  position: relative;
+  background: #1E1E1E;
 }
- 
+
+a {
+  text-decoration: none;
+}
+
+.ui_btn {
+  background: linear-gradient(225deg, #0000FF 14.89%, #006152 85.85%);
+  border-radius: 10px;
+  width: 124px;
+  height: 40px;
+  font-family: var(--primary-font);
+  color: var(--white);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui_btn .WalletIcon {
+  margin-left: 7px;
+  width: 17px;
+  max-width: 18px;
+}
+
+.navBtn {
+  margin-right: 17px;
+}
+
+
+.HeroComponent {
+  min-height: 100vh;
+  background: #1E1E1E;
+  z-index: 9;
+  position: relative;
+}
+
+.heroLines {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+
+.heroLines::after {
+  position: absolute;
+  content: '';
+  width: 200px;
+  height: 400px;
+  left: -7%;
+  top: 4rem;
+  background: rgba(24, 75, 255, 0.4);
+  filter: blur(100px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.HeroContent {
+  position: relative;
+  z-index: 11;
+  padding-top: 272px;
+  color: var(--white);
+}
+
+.HeroContent .HeroHead {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 91px;
+  font-family: var(--secondary-font);
+}
+
+.HeroContent .HeroHead span {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--goldYellow);
+}
+
+.Herotext {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  width: 65%;
+}
+
+.heroImg {
+  position: absolute;
+  right: 0;
+  width: 642px;
+  top: 50%;
+  transform: translateY(-20%);
+}

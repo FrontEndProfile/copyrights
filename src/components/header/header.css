@@ -1,0 +1,13 @@
+.navbar .navbar-brand {
+    max-width: 78px;
+}
+
+nav.navbar {
+    padding: 23px 40px;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
