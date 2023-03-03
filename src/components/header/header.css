@@ -11,3 +11,29 @@ header {
     width: 100%;
     z-index: 10;
 }
+
+.customDrop {
+    max-height: 40px;
+}
+
+.headAccountFrame {
+    width: 35.73px;
+    height: 35.73px;
+    border-radius: 34px;
+    overflow: hidden;
+    margin-right: 9.86px;
+}
+.welcomeText {
+    font-weight: 500;
+    font-size: 9.85693px;
+    line-height: 12px;
+    color: #717B8C;
+    margin-bottom: 4.63px;
+    
+}
+.userName {
+    font-weight: 500;
+    font-size: 11.0891px;
+    line-height: 13px;
+    color: #4C535F;
+}

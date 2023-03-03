@@ -27,7 +27,7 @@ body,
 body {
   font-size: 1.6rem;
   position: relative;
-  background: #1E1E1E;
+  background: #1E1E1E !important;
 }
 
 a {
@@ -100,6 +100,7 @@ a {
   font-size: 68px;
   line-height: 91px;
   font-family: var(--secondary-font);
+  margin-bottom: 2.5rem;
 }
 
 .HeroContent .HeroHead span {
@@ -114,6 +115,7 @@ a {
   font-size: 24px;
   line-height: 29px;
   width: 65%;
+  margin-bottom: 3.5rem;
 }
 
 .heroImg {
@@ -122,4 +124,102 @@ a {
   width: 642px;
   top: 50%;
   transform: translateY(-20%);
+}
+
+.welcomeText,
+.userName {
+  font-family: var(--primary-font);
+}
+
+.CardsLayout {
+  min-height: 426px;
+  margin-top: 12.3rem;
+  position: relative;
+}
+
+.CardsLayoutLines {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  inset: 0;
+  z-index: 1;
+}
+
+
+.CardsLayout .card {
+  /* background: rgba(26, 27, 35, 0.5); */
+  background: #84848480;
+  border-radius: 25px;
+  /* min-width: 380px; */
+  color: var(--white);
+  padding-block: 3.2rem;
+  padding-inline: 2.4rem;
+  border: none;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+  height: 100%;
+}
+
+.card .card-img-top {
+  margin-bottom: 3.2rem;
+  margin-inline: auto;
+}
+.card-img-top.cardOne {
+  width: 8rem;
+}
+.card-img-top.cardTwo {
+  width: 4.2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+.card-img-top.cardThree {
+  width: 4.9rem;
+  margin-bottom: 4.5rem;
+  margin-top: 2rem;
+}
+.card .card-title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 1.6rem;
+}
+
+.card .card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #898CA9;
+  margin-bottom: 3.2rem;
+}
+
+.card .cardBtn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--primary-font);
+  border: none;
+  outline: none;
+}
+.card .cardBtn:hover .arrowIcon{
+  transition: 0.4s ease-in-out;
+  margin-left: 1.2rem;
+}
+
+.card .cardBtn .arrowIcon {
+  width: 2.4rem;
+  margin-left: 0.6rem;
+  transition: 0.2s ease-in-out;
+}
+.CardsLayout .row .col-md-4 {
+  padding-inline: 1rem !important;
+}
+.ContentMedia {
+  color: var(--white);
+  font-family: var(--primary-font);
 }

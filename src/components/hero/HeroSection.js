@@ -10,12 +10,12 @@ const HeroSection = () => {
         <>
             <section className='HeroComponent'>
                 <div className='heroLines'>
-                    <img className='img-fluid mw-100' src={Lines} />
+                    <img className='img-fluid mw-100' src={Lines} alt=''/>
                 </div>
 
                 <div className='container position-relative'>
                     <div className='heroImg'>
-                        <img className='img-fluid mw-100' src={heroImage} />
+                        <img className='img-fluid mw-100' src={heroImage} alt=''/>
                     </div>
                     <div className='row HeroContent'>
                         <div className='col-md-12'>

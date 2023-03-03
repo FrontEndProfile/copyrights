@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/MainLogo.png'
 import walletIcon from '../../assets/images/walletIcon.png'
+import accountFrame from '../../assets/images/accountFrame.png'
 
 import './header.css'
 import '../../index.css'
@@ -13,7 +14,7 @@ const Header = () => {
                 <nav className="navbar navbar-expand-lg">
                     <div className="container">
                         <Link className="navbar-brand" to="/">
-                            <img className='img-fluid' src={logo} />
+                            <img className='img-fluid' src={logo}  alt=''/>
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -23,12 +24,31 @@ const Header = () => {
                                 <li className="nav-item navBtn">
                                     <Link className="ui_btn text-decoration-none" to='/'>
                                         Connect Wallet
-                                        <img className='WalletIcon' src={walletIcon} />
+                                        <img className='WalletIcon' src={walletIcon} alt='' />
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link text-white" to="/profile">No Idea</Link>
+                                <li className="nav-item customDrop">
+                                    <div className='dropdown'>
+                                    <Link className="btn dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span className='d-flex align-items-center text-start'>
+                                            <img className='headAccountFrame' src={ accountFrame } alt=''/>
+                                            <span>
+                                                <div className='welcomeText'>Welcome Back!</div>
+                                                <div className='userName'>Mudassir M</div>
+                                            </span>
+                                        </span>
+                                    </Link>
+                                    <ul className="dropdown-menu">
+                                        <li><Link className="dropdown-item" to='/'>Copyright Agreements</Link></li>
+                                        <li><Link className="dropdown-item" to="/">Profiles</Link></li>
+                                        <li><Link className="dropdown-item" to="/">Sign Out</Link></li>
+                                    </ul>
+                                    </div>
+                                    <div>
+                                    
+                                    </div>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div>
