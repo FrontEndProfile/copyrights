@@ -13,7 +13,7 @@ const HeroSection = () => {
                     <img className='img-fluid mw-100' src={Lines} alt=''/>
                 </div>
 
-                <div className='container position-relative'>
+                <div className='container-xl position-relative'>
                     <div className='heroImg'>
                         <img className='img-fluid mw-100' src={heroImage} alt=''/>
                     </div>
@@ -26,7 +26,8 @@ const HeroSection = () => {
                             <p className='Herotext'>
                                 Welcome to Copyright Wallet, your trusted partner in copyright protection. We understand that as a creator, your intellectual property is incredibly valuable, and it's important to ensure that it remains safe and secure. That's where Copyright Wallet comes in.
                             </p>
-                            <Link to='/profile' className='ui_btn text-decoration-none'>Get Started</Link>
+                            {/* <Link to='/#cards' className='ui_btn text-decoration-none'>Get Started</Link> */}
+                            <a href='/#cards' className='ui_btn text-decoration-none'>Get Started</a>
                         </div>
                     </div>
                 </div>

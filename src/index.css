@@ -284,6 +284,7 @@ a {
 
 
 footer {
+  padding-top: 10rem;
   padding-bottom: 9.2rem;
   color: var(--white);
 }
@@ -358,6 +359,11 @@ footer .footerContent {
   text-align: center;
   color: var(--white);
   padding-block: 8.6rem 12.6rem;
+
+}
+.subscribeMain {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .subscribe h3 {
@@ -367,6 +373,7 @@ footer .footerContent {
   mix-blend-mode: normal;
   opacity: 0.96;
   margin-bottom: 3.2rem;
+  color: var(--white);
 }
 
 .subscribe p {
@@ -375,11 +382,14 @@ footer .footerContent {
   line-height: 150%;
   color: #898CA9;
   margin-bottom: 3.5rem;
+  /* fix  */
+  position: relative;
 }
 
 .subscribe p a {
   opacity: 1;
   color: var(--white);
+  text-decoration: none;
 }
 
 .subscribe .footerForm {
@@ -413,10 +423,14 @@ footer .footerContent {
   }
 
 }
+
 @media (max-width: 1200px) {
-  .HeroHead br {
+
+  .HeroHead br,
+  .ContentMediaContent br {
     display: none;
   }
+
   .HeroContent .HeroHead {
     font-style: normal;
     font-weight: 600;
@@ -424,5 +438,195 @@ footer .footerContent {
     line-height: 72px;
     font-family: var(--secondary-font);
     margin-bottom: 2rem;
+  }
+
+  .PageContainer {
+    padding-inline: 5.5rem;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .HeroContent {
+    padding-top: 20rem;
+  }
+
+  .ContentMedia {
+    position: relative;
+  }
+
+  .heroImg {
+    width: 55rem;
+    transform: translateY(-28%);
+  }
+
+  .HeroComponent {
+    position: initial;
+  }
+
+  .heroLines {
+    width: 120%;
+  }
+
+  .ContentMedia .ContentMediaRow {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 991px) {
+  .CardsLayout .card {
+    border-radius: 2rem;
+    padding-block: 2.2rem;
+    padding-inline: 0.5rem;
+  }
+
+  .card .card-text {
+    font-size: 14px;
+    line-height: 136%;
+    margin-bottom: 2.6rem;
+  }
+
+  .card .card-title {
+    font-weight: 800;
+    font-size: 2.6rem;
+    line-height: 130%;
+    margin-bottom: 1.2rem;
+  }
+
+  .card .card-img-top {
+    margin-bottom: 1.2rem;
+  }
+
+  .card .cardTwo {
+    margin-bottom: 3rem;
+  }
+
+  .card .cardThree {
+    margin-bottom: 2rem;
+  }
+
+  .card-img-top.cardThree {
+    width: 4.4rem;
+  }
+
+  .card-img-top.cardThree {
+    width: 4.4rem;
+  }
+
+  .card-img-top.cardTwo {
+    width: 3.2rem;
+  }
+
+  .card-img-top.cardOne {
+    width: 7rem;
+  }
+
+  .heroImg {
+    width: 50rem;
+    transform: translateY(-30%);
+  }
+
+  .HeroContent .HeroHead {
+    font-size: 5rem;
+    line-height: 65px;
+  }
+
+  .Herotext {
+    font-size: 22px;
+    line-height: 29px;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .ui_btn {
+    font-size: 14px;
+  }
+
+  .HeroComponent {
+    min-height: auto;
+  }
+
+  .CardsLayout .row .col-md-4 {
+    padding-inline: .5rem !important;
+  }
+
+  .ContentMediaHeadTitle {
+    font-size: 34px;
+    margin-bottom: 2.5rem;
+  }
+
+  .ContentMediaHeadContent br {
+    display: none;
+  }
+
+  .ContentMediaHeadContent {
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 5.8rem;
+  }
+
+  .ContentMediaTitle {
+    font-size: 26px;
+    margin-bottom: 1.7rem;
+  }
+
+  .PageContainer {
+    padding-inline: 2.5rem;
+  }
+
+  .navbar-collapse {
+    background: rgba(255, 255, 255, 0.331);
+    border-radius: 3rem;
+    padding-block: 2rem;
+  }
+
+  header .ui_btn,
+  header .customDrop {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .CardsLayout .row .col-md-4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .ContentMedia .ContentMediaRow {
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* align-items: center !important; */
+  }
+
+  .ContentMedia .ContentMediaRow .col-md-4 .ContentMediaImage {
+    margin-inline: auto;
+    display: flex;
+    max-width: 24rem;
+  }
+
+  .ContentMedia .ContentMediaRow .col-md-7 {
+    text-align: center;
+  }
+
+  .ContentMedia {
+    padding-block: 4rem;
+  }
+
+  footer {
+    padding-bottom: 2.2rem;
+  }
+
+  .ContentMediaRow {
+    margin-bottom: 5.3rem;
+  }
+
+  .subscribe h3 {
+    font-size: 33px;
+    margin-bottom: 2.2rem;
+  }
+
+  .subscribe {
+    padding-block: 8.6rem 8.6rem;
+    color: #0000FF;
   }
 }

@@ -9,7 +9,7 @@ const ContentMedia = () => {
     return (
         <>
             <section className='ContentMedia'>
-                <div className='container'>
+                <div className='container-xl'>
                     <div className='row'>
                         <div className='col'>
                             <h1 className='ContentMediaHeadTitle'>Check out what's
@@ -30,7 +30,7 @@ const ContentMedia = () => {
                                 emotional experience.
                             </p>
                         </div>
-                        <div className='col-md-5'>
+                        <div className='col-xl-5 col-md-4'>
                             <img className='w-100 ContentMediaImage' src={MediaOne} alt='MediaOne' />
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const ContentMedia = () => {
                                 emotional experience.
                             </p>
                         </div>
-                        <div className='col-md-5'>
+                        <div className='col-xl-5 col-md-4'>
                             <img className='w-100 ContentMediaImage' src={MediaTwo} alt='MediaOne' />
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const ContentMedia = () => {
                                 emotional experience.
                             </p>
                         </div>
-                        <div className='col-md-5'>
+                        <div className='col-xl-5 col-md-4'>
                             <img className='w-100 ContentMediaImage' src={MediaThree} alt='MediaOne' />
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const ContentMedia = () => {
                                 emotional experience.
                             </p>
                         </div>
-                        <div className='col-md-5'>
+                        <div className='col-xl-5 col-md-4'>
                             <img className='w-100 ContentMediaImage' src={NFTLogo} alt='MediaOne' />
                         </div>
                     </div>

@@ -8,23 +8,9 @@ const Footer = () => {
   return (
     <>
       <footer className="">
-        <div className='container'>
-          {/* SignUp  */}
-          <div className='row subscribe'>
-            <div className='col'>
-              <h3>Receive transmissions</h3>
-              <p>Unsubscribe at any time. <Link to='/'>Privacy policy↗</Link></p>
-              <div className="footerForm mx-auto">
-                <label for="newsletter1" className="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" className="form-control bg-transparent" placeholder="Email address" />
-                <button className="btn p-0 m-0 footerFormBtn" type="button">
-                  <img src={arrow} alt='' />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4 pe-lg-5 mb-3">
+        <div className='container-xl'>
+          <div className="row justify-content-between">
+            <div className="col-md-4 pe-lg-5 mb-3 order-md-1 order-3">
               <form>
                 <p className='footerContent'>Welcome to Copyright Wallet, your trusted partner in copyright protection. We understand that as a creator, your intellectual property is incredibly valuable, and it's important to ensure that it remains safe and secure. That's where Copyright Wallet comes in.</p>
                 <p className='footerContent signUpText'>Sign up to get the latest  news, discounts, and more.</p>
@@ -40,7 +26,7 @@ const Footer = () => {
               </form>
             </div>
 
-            <div className="col-6 col-md-2 offset-lg-1 mb-3 footerSubTitle">
+            <div className="col-3 col-md-2 offset-xl-1 mb-3 footerSubTitle order-md-2 order-1">
               <h5>Company</h5>
               <ul className="nav flex-column">
                 <li className="nav-item"><Link to="#" className="nav-link p-0">About</Link></li>
@@ -51,7 +37,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-6 col-md-3 offset-lg-2 mb-3 footerSubTitle">
+            <div className="col-8 col-xl-3 col-md-4 offset-xl-2 mb-3 footerSubTitle order-md-3 order-2">
               <h5>Copyright Agreements</h5>
               <ul className="nav flex-column">
                 <li className="nav-item"><Link to="#" className="nav-link p-0">Create New Copyright Agreements</Link></li>

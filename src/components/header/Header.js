@@ -12,11 +12,11 @@ const Header = () => {
         <>
             <header>
                 <nav className="navbar navbar-expand-lg">
-                    <div className="container">
+                    <div className="container-xl">
                         <Link className="navbar-brand" to="/">
                             <img className='img-fluid' src={logo}  alt=''/>
                         </Link>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler border-0 border shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,7 +29,7 @@ const Header = () => {
                                 </li>
                                 <li className="nav-item customDrop">
                                     <div className='dropdown'>
-                                    <Link className="btn dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <Link className="btn dropdown-toggle border border-0 shadow-none p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span className='d-flex align-items-center text-start'>
                                             <img className='headAccountFrame' src={ accountFrame } alt=''/>
                                             <span>
@@ -40,7 +40,7 @@ const Header = () => {
                                     </Link>
                                     <ul className="dropdown-menu">
                                         <li><Link className="dropdown-item" to='/'>Copyright Agreements</Link></li>
-                                        <li><Link className="dropdown-item" to="/">Profiles</Link></li>
+                                        <li><Link className="dropdown-item" to="/profile">Profiles</Link></li>
                                         <li><Link className="dropdown-item" to="/">Sign Out</Link></li>
                                     </ul>
                                     </div>

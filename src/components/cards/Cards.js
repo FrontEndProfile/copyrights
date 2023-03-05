@@ -9,11 +9,11 @@ import cardtrade from '../../assets/images/cardtrade.png'
 const Cards = () => {
     return (
         <>
-            <section className='CardsLayout'>
+            <section className='CardsLayout' id='cards'>
                 <div className='CardsLayoutLines'>
                     <img className='img-fluid' src={cardsCircles} alt='' />
                 </div>
-                <div className='container'>
+                <div className='container-xl'>
                     <div className='row'>
                         <div className='col-md-4'>
                             <div className="card">
