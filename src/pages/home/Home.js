@@ -4,6 +4,7 @@ import Header from '../../components/header/Header'
 import HeroSection from '../../components/hero/HeroSection'
 import Cards from '../../components/cards/Cards'
 import ContentMedia from '../../components/ContentMedia/ContentMedia'
+import Footer from '../../components/footer/Footer'
 import './home.css'
 const home = () => {
   return (
@@ -13,6 +14,7 @@ const home = () => {
         <HeroSection />
         <Cards />
         <ContentMedia />
+        <Footer />
       </main>
 
     </>

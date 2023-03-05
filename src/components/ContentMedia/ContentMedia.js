@@ -1,5 +1,8 @@
 import React from 'react'
 import MediaOne from '../../assets/images/MediaOne.png'
+import MediaThree from '../../assets/images/MediaThree.png'
+import MediaTwo from '../../assets/images/MediaTwo.png'
+import NFTLogo from '../../assets/images/NFT-Logo.png'
 
 
 const ContentMedia = () => {
@@ -21,9 +24,9 @@ const ContentMedia = () => {
                     <div className='row align-items-center ContentMediaRow'>
                         <div className='col-md-7'>
                             <h3 className='ContentMediaTitle'>Connect with a loyal audience</h3>
-                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br/>
-                                with whom they share purchasing power and purchasing<br/>
-                                behavior. We leverage existing relationships to create an<br/>
+                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br />
+                                with whom they share purchasing power and purchasing<br />
+                                behavior. We leverage existing relationships to create an<br />
                                 emotional experience.
                             </p>
                         </div>
@@ -33,41 +36,42 @@ const ContentMedia = () => {
                     </div>
                     <div className='row align-items-center ContentMediaRow'>
                         <div className='col-md-7'>
-                            <h3 className='ContentMediaTitle'>Connect with a loyal audience</h3>
-                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br/>
-                                with whom they share purchasing power and purchasing<br/>
-                                behavior. We leverage existing relationships to create an<br/>
+                            <h3 className='ContentMediaTitle'>Increase purchase<br />
+                                frequency and ticket size</h3>
+                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br />
+                                with whom they share purchasing power and purchasing<br />
+                                behavior. We leverage existing relationships to create an<br />
                                 emotional experience.
                             </p>
                         </div>
                         <div className='col-md-5'>
-                            <img className='w-100 ContentMediaImage' src={MediaOne} alt='MediaOne' />
+                            <img className='w-100 ContentMediaImage' src={MediaTwo} alt='MediaOne' />
                         </div>
                     </div>
                     <div className='row align-items-center ContentMediaRow'>
                         <div className='col-md-7'>
-                            <h3 className='ContentMediaTitle'>Connect with a loyal audience</h3>
-                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br/>
-                                with whom they share purchasing power and purchasing<br/>
-                                behavior. We leverage existing relationships to create an<br/>
+                            <h3 className='ContentMediaTitle'>Increase foot traffic</h3>
+                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br />
+                                with whom they share purchasing power and purchasing<br />
+                                behavior. We leverage existing relationships to create an<br />
                                 emotional experience.
                             </p>
                         </div>
                         <div className='col-md-5'>
-                            <img className='w-100 ContentMediaImage' src={MediaOne} alt='MediaOne' />
+                            <img className='w-100 ContentMediaImage' src={MediaThree} alt='MediaOne' />
                         </div>
                     </div>
                     <div className='row align-items-center ContentMediaRow'>
                         <div className='col-md-7'>
-                            <h3 className='ContentMediaTitle'>Connect with a loyal audience</h3>
-                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br/>
-                                with whom they share purchasing power and purchasing<br/>
-                                behavior. We leverage existing relationships to create an<br/>
+                            <h3 className='ContentMediaTitle'>Stablecoin and NFT support</h3>
+                            <p className='ContentMediaContent'>Your current customer base connects you to their friends, <br />
+                                with whom they share purchasing power and purchasing<br />
+                                behavior. We leverage existing relationships to create an<br />
                                 emotional experience.
                             </p>
                         </div>
                         <div className='col-md-5'>
-                            <img className='w-100 ContentMediaImage' src={MediaOne} alt='MediaOne' />
+                            <img className='w-100 ContentMediaImage' src={NFTLogo} alt='MediaOne' />
                         </div>
                     </div>
 
