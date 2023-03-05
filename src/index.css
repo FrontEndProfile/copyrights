@@ -410,7 +410,10 @@ footer .footerContent {
   margin-bottom: 0;
 }
 
-
+/* PROFILE PAGE  */
+.dataPage .profileRow {
+  color: var(--white);
+}
 
 
 
