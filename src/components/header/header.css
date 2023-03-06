@@ -44,11 +44,32 @@ header {
     filter: brightness(0) saturate(100%) invert(10%) sepia(87%) saturate(7497%) hue-rotate(248deg) brightness(85%) contrast(145%);
     opacity: 1 !important;
 }
+
 .navbar-toggler-icon {
-	width: 2.5em;
-	height: 2.5em;
+    width: 2.5em;
+    height: 2.5em;
 }
 
 header .dropdown-toggle::after {
     content: none;
+}
+
+header .dropdown-menu {
+    padding: 0.6rem 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1.2rem;
+    background: #0000ffb1;
+    margin-top: 1.5rem !important;
+}
+
+header .dropdown-menu .dropdown-item {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    padding-inline: 1rem;
+}
+header .dropdown-menu .dropdown-item:hover {
+    background: #1515ff9d;
+    color: rgba(255, 255, 255, 0.753);
 }

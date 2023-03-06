@@ -17,8 +17,10 @@ const home = () => {
           <Cards />
           <ContentMedia />
           <div className='Subscribe_after'></div>
-          <Subscribe />
-          <Footer />
+          <div className='BackLines'>
+            <Subscribe />
+            <Footer />
+          </div>
         </div>
       </main>
 
