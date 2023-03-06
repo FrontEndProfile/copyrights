@@ -556,7 +556,12 @@ footer::before {
   justify-content: center;
   margin-top: 3rem;
 }
-
+.detailPage {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  color: var(--white);
+}
 /* Responsive Mode */
 @media (max-width: 1400px) {
   .CardsLayout {
@@ -777,3 +782,6 @@ footer::before {
     color: #0000FF;
   }
 }
+
+
+

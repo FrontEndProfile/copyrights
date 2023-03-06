@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import Agreements from './pages/Agreements/Agreements';
 import AgreementDetail from './pages/AgreementDetail/AgreementDetail';
 import Profile from './pages/profile/Profile';
+import Detail from './pages/Detail/Detail';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/profile" element={<Profile />}></Route>
           <Route path="/Agreements" element={<Agreements />}></Route>
           <Route path="/AgreementDetail" element={<AgreementDetail />}></Route>
+          <Route path="/Detail" element={<Detail />}></Route>
         </Routes>
       </Router>
     </>
