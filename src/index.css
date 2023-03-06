@@ -361,6 +361,7 @@ footer .footerContent {
   padding-block: 8.6rem 12.6rem;
 
 }
+
 .subscribeMain {
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -415,8 +416,53 @@ footer .footerContent {
   color: var(--white);
 }
 
+.myForm .form-label {
+  font-weight: 400;
+  font-size: 15.7936px;
+  line-height: 120%;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+
+}
 
 
+.myForm .customInput {
+  /* background: transparent;
+  background: radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 0% 0%/8px 8px no-repeat,
+  radial-gradient(circle at 0 100%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 100% 0%/8px 8px no-repeat,
+  radial-gradient(circle at 100% 0, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 0% 100%/8px 8px no-repeat,
+  radial-gradient(circle at 0 0, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 100% 100%/8px 8px no-repeat,
+  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) 50% 50%/calc(100% - 2.88px) calc(100% - 16px) no-repeat,
+  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) 50% 50%/calc(100% - 16px) calc(100% - 2.88px) no-repeat,
+  repeating-linear-gradient(90deg, rgba(255,255,255,0) 0%, #737272 100%); */
+  border-radius: 8px;
+  box-sizing: content-box;
+  margin-bottom: 2rem;
+  width: 100% !important;
+  height: 61px;
+  /* padding: 10px 22px; */
+  color: var(--white);
+  padding-inline: 15px;
+  font-size: 1.6rem;
+}
+
+.fillBtn {
+  width: 100%;
+  background: linear-gradient(225deg, #0000FF 14.89%, #006152 85.85%);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+
+}
 
 /* Responsive Mode */
 @media (max-width: 1400px) {
@@ -473,6 +519,11 @@ footer .footerContent {
   .ContentMedia .ContentMediaRow {
     justify-content: space-between;
   }
+
+  /* .PageContainer .dataPage .dataPageWidth .customTableHead {
+    overflow-x: scroll;
+
+  } */
 }
 
 @media (max-width: 991px) {

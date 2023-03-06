@@ -39,9 +39,9 @@ const Header = () => {
                                         </span>
                                     </Link>
                                     <ul className="dropdown-menu">
-                                        <li><Link className="dropdown-item" to='/'>Copyright Agreements</Link></li>
+                                        <li><Link className="dropdown-item" to='/Agreements'>Copyright Agreements</Link></li>
                                         <li><Link className="dropdown-item" to="/profile">Profiles</Link></li>
-                                        <li><Link className="dropdown-item" to="/">Sign Out</Link></li>
+                                        <li><Link className="dropdown-item" to="/AgreementDetail">Sign Out</Link></li>
                                     </ul>
                                     </div>
                                     <div>

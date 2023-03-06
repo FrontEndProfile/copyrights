@@ -2,12 +2,155 @@
     display: none !important;
 }
 
-.viewPage {
+/* .viewPage {
     
-}
+} */
 .viewPage .dataPage {
     padding-top: 14.2rem;
 }
+
 .addProfileLayout {
     margin-left: auto;
+    background: linear-gradient(225deg, #0000FF 14.89%, #006152 85.85%);
+    border-radius: 10px;
+    width: 124px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    text-decoration: none;
 }
+
+.profileRow {
+    margin-bottom: 4.3rem;
+}
+
+.profileRow h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 21px;
+    margin-bottom: 1.9rem;
+}
+
+.profileRow p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B5B5C3;
+}
+
+.customTableLayout {}
+
+.customTableHead h6 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: white;
+    margin-bottom: 0;
+}
+
+.customTableHead {
+    padding-block: 1.4rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) -55.34%, rgba(255, 255, 255, 0.1) 44.66%);
+    box-shadow: 0px 4px 24px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(10.5px);
+    border-radius: 6px;
+    padding-inline: 2.7rem;
+    margin-bottom: 4.3rem;
+}
+
+.customTableDataRow {
+    margin-bottom: 2.9rem;
+}
+
+.customTableDataRow .vectorDummy {
+    max-width: 5rem;
+    width: 5rem;
+    margin-right: 1.5rem;
+}
+
+.customTableDataRow p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+}
+
+.customTableDataRow .walletText {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.customTableDataRow .editBtn {
+    background: linear-gradient(225deg, #0000FF 14.89%, #006152 85.85%);
+    border-radius: 10px;
+    width: 85px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.viewPage .heroLines::after {
+    content: none;
+}
+
+.viewPageBlur {
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.viewPage .viewPageBlur::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    width: 28%;
+    height: 70%;
+    z-index: 999;
+    background: rgba(16, 103, 89, 0.464);
+    z-index: -1;
+}
+
+.viewPageBlur::before {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 400px;
+    right: -5%;
+    top: -9rem;
+    background: rgba(24, 75, 255, 0.4);
+    filter: blur(100px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.customTableDataGap {
+    /* grid-column-gap: 2rem; */
+    justify-content: space-between;
+    /* padding-inline: 2.7rem; */
+}
+
+.AgreementDetailFix .customTableDataGap {
+    padding-inline: 2.7rem;
+}
+
+
+
+@media (max-width: 1200px) {
+    .viewPage .viewPageBlur::after {
+        z-index: 0;
+    }
+}
+
