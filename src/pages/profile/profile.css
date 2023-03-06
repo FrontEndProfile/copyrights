@@ -108,7 +108,7 @@
 .viewPageBlur {
     position: absolute;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 100vh;
 }
 

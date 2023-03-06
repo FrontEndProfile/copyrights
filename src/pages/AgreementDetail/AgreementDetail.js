@@ -43,6 +43,10 @@ const AgreementDetail = () => {
                         <label for="name" class="form-label">Description</label>
                         <textarea className='form-control w-100 bg-transparent' rows={10}></textarea>
                       </div>
+                      <div class="w-100 d-none">
+                        <input class="form-control" type="file" id="formFile" />
+                      </div>
+
                       <button type="submit" class="fillBtn">Submit</button>
                     </form>
                   </div>

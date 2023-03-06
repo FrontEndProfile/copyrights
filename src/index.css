@@ -355,6 +355,62 @@ footer .footerContent {
   margin-bottom: 3rem;
 }
 
+footer {
+  position: relative;
+}
+
+footer::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 33%;
+  height: 604px;
+  background-image: url(..//src/assets/images/bg-gradient-icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.Subscribe_after {
+  position: relative;
+  overflow-y: visible;
+  width: 100%;
+}
+.Subscribe_after::before {
+  position: absolute;
+  left: -30rem;
+  top: -9rem;
+  content: '';
+  width: 40%;
+  height: 900px;
+  background-image: url(..//src/assets/images/bg-gradient-golobal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.Subscribe_after.ContentMedia::before {
+  left: -40%;
+  top: -9rem;
+  width: 55%;
+  height: 900px;
+}
+/* .ContentMediaTwo {
+  position: relative;
+  overflow-x: hidden;
+}
+.ContentMediaTwo::before {
+  position: absolute;
+  background-image: url(..//src/assets/images/bg-gradient-golobal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: '';
+  background-size: cover;
+  right: -25%;
+  top: 0;
+  width: 50rem;
+  height: 50rem;
+  
+} */
 .subscribe {
   text-align: center;
   color: var(--white);
@@ -427,23 +483,19 @@ footer .footerContent {
 
 
 .myForm .customInput {
-  /* background: transparent;
-  background: radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 0% 0%/8px 8px no-repeat,
-  radial-gradient(circle at 0 100%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 100% 0%/8px 8px no-repeat,
-  radial-gradient(circle at 100% 0, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 0% 100%/8px 8px no-repeat,
-  radial-gradient(circle at 0 0, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 6.5600000000000005px, transparent 6.5600000000000005px) 100% 100%/8px 8px no-repeat,
-  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) 50% 50%/calc(100% - 2.88px) calc(100% - 16px) no-repeat,
-  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) 50% 50%/calc(100% - 16px) calc(100% - 2.88px) no-repeat,
-  repeating-linear-gradient(90deg, rgba(255,255,255,0) 0%, #737272 100%); */
   border-radius: 8px;
-  box-sizing: content-box;
   margin-bottom: 2rem;
   width: 100% !important;
   height: 61px;
-  /* padding: 10px 22px; */
+  padding: 10px 22px;
   color: var(--white);
   padding-inline: 15px;
   font-size: 1.6rem;
+  border-color: #434959;
+}
+
+.myForm textarea {
+  border-color: #434959;
 }
 
 .fillBtn {
@@ -461,7 +513,6 @@ footer .footerContent {
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
-
 }
 
 /* Responsive Mode */

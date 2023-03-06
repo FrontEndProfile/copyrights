@@ -16,6 +16,7 @@ const home = () => {
           <HeroSection />
           <Cards />
           <ContentMedia />
+          <div className='Subscribe_after'></div>
           <Subscribe />
           <Footer />
         </div>

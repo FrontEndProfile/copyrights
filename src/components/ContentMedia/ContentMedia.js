@@ -20,6 +20,7 @@ const ContentMedia = () => {
                             </p>
                         </div>
                     </div>
+                    <div className='Subscribe_after ContentMedia'></div>
 
                     <div className='row align-items-center ContentMediaRow'>
                         <div className='col-md-7'>
@@ -34,6 +35,7 @@ const ContentMedia = () => {
                             <img className='w-100 ContentMediaImage' src={MediaOne} alt='MediaOne' />
                         </div>
                     </div>
+                    {/* <div className='ContentMediaTwo'></div> */}
                     <div className='row align-items-center ContentMediaRow'>
                         <div className='col-md-7'>
                             <h3 className='ContentMediaTitle'>Increase purchase<br />
