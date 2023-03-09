@@ -1,0 +1,29 @@
+.progressMainLine {
+	transform: scale(1.6);
+}
+.dropRowProgress .progressMainLine {
+	transform: scale(1.1);
+	margin: 0;
+}
+.progressMainNumber {
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	letter-spacing: -0.02em;
+
+	color: #FFFFFF;
+}
+
+.progressMainText {
+	font-weight: 500;
+	font-size: 4px;
+	line-height: 5px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
