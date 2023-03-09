@@ -13,7 +13,7 @@ const Subscribe = () => {
                         <h3>Receive transmissions</h3>
                         <p>Unsubscribe at any time. <Link to='/'>Privacy policy↗</Link></p>
                         <div className="footerForm mx-auto">
-                            <label for="newsletter1" className="visually-hidden">Email address</label>
+                            <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
                             <input id="newsletter1" type="text" className="form-control bg-transparent" placeholder="Email address" />
                             <button className="btn p-0 m-0 footerFormBtn" type="button">
                                 <img src={arrow} alt='' />

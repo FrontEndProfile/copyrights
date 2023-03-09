@@ -38,18 +38,18 @@ const Detail = () => {
                 </div>
                 <div className="row justify-content-center formGap">
                   <div className="col-md-5 formMain">
-                    <label for="one" className="form-label">Agreement name</label>
+                    <label htmlFor="one" className="form-label">Agreement name</label>
                     <input type="text" className="form-control bg-transparent shadow-none" id='one' placeholder="First name" />
                   </div>
                   <div className="col-md-5 offset-lg-1 formMain">
-                    <label for="one" className="form-label">Agreement name</label>
+                    <label htmlFor="one" className="form-label">Agreement name</label>
                     <input type="text" className="form-control bg-transparent shadow-none" id='one' placeholder="First name" />
                   </div>
                 </div>
 
                 <div className="row justify-content-center formGap">
                   <div className="col-md-11 formMainTextArea">
-                    <label for="one" className="form-label">Agreement name</label>
+                    <label htmlFor="one" className="form-label">Agreement name</label>
                     <textarea className="form-control bg-transparent shadow-none p-5" rows='7' id='one'></textarea>
                   </div>
                 </div>

@@ -16,7 +16,7 @@ const Footer = () => {
                 <p className='footerContent signUpText'>Sign up to get the latest  news, discounts, and more.</p>
 
                 <div className="d-flex flex-column flex-sm-row gap-2 footerForm">
-                  <label for="newsletter1" className="visually-hidden">Email address</label>
+                  <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
                   <input id="newsletter1" type="text" className="form-control bg-transparent" placeholder="Email address" />
                   <button className="btn p-0 m-0 footerFormBtn" type="button">
                     <img src={arrow} alt='' />
