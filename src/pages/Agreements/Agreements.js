@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import Header from '../../components/header/Header'
 import Lines from '../../assets/images/circles.png'
-import DummyChart from '../../assets/images/DummyCharts.png'
 import '../profile/profile.css'
 import './Agreements.css'
 

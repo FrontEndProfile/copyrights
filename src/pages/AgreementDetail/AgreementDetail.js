@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import Lines from '../../assets/images/circles.png'
 import VectorDummy from '../../assets/images/VectorDummy.png'
