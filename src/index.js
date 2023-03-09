@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
-import 'https://code.jquery.com/jquery-3.5.1.slim.min.js'
+// import 'https://code.jquery.com/jquery-3.5.1.slim.min.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
