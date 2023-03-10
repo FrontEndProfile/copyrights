@@ -1,10 +1,12 @@
 .progressMainLine {
 	transform: scale(1.6);
 }
+
 .dropRowProgress .progressMainLine {
 	transform: scale(1.1);
 	margin: 0;
 }
+
 .progressMainNumber {
 	font-weight: 500;
 	font-size: 10px;
@@ -26,4 +28,40 @@
 	align-items: center;
 	text-align: center;
 	letter-spacing: -0.02em;
+}
+
+
+.uploadBtn {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 2rem;
+	background: transparent;
+	border-radius: 1rem;
+	border: 1.43578px dashed #A7A4A4 !important;
+	border-radius: 8.6147px;
+	padding-block: 2rem;
+	box-shadow: none !important;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 100%;
+	color: #FFFFFF;
+
+}
+.uploadBtnOverLay {
+	position: relative;
+	z-index: -1;
+}
+
+.uploadBtn span {
+	margin-right: 0.8rem;
+}
+
+
+.uploadBtn input {
+	position: absolute;
+	font-size: 50px;
+	opacity: 0;
+	right: 0;
+	top: 0;
 }

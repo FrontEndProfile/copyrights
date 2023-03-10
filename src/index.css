@@ -654,7 +654,14 @@ background: red; */
   color: rgba(255, 255, 255, 0.4);
 
 }
-
+.myDropdown .accordion-header .accordion-button,
+.myDropdown .accordion-item {
+  background-color: transparent;
+  color: var(--white);
+}
+.accordion-button {
+  background: transparent;
+}
 .myDropdown .accordion-body {
   background: #1E1E1E;
   width: 100%;
@@ -675,6 +682,7 @@ background: red; */
   color: var(--white);
 }
 
+
 .accordion-button:not(.collapsed) {
   color: black;
   background-color: #D9D9D9 !important;
@@ -689,11 +697,7 @@ background: red; */
 }
 
 
-.myDropdown .accordion-header .accordion-button,
-.myDropdown .accordion-item {
-  background-color: transparent;
-  color: var(--white);
-}
+
 .accordion-button::after {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(6398%) hue-rotate(148deg) brightness(101%) contrast(111%);
 }
